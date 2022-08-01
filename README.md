@@ -846,7 +846,7 @@ PING google.com (142.251.42.174) from 10.46.0.2 uesimtun0: 56(84) bytes of data.
 64 bytes from 142.251.42.174: icmp_seq=2 ttl=61 time=18.5 ms
 64 bytes from 142.251.42.174: icmp_seq=3 ttl=61 time=18.2 ms
 ```
-The `tcpdump` log on U-Plane1 is as follows.
+The `tcpdump` log on U-Plane2 is as follows.
 ```
 20:20:57.409542 IP 10.46.0.2 > 142.251.42.174: ICMP echo request, id 3, seq 1, length 64
 20:20:57.426864 IP 142.251.42.174 > 10.46.0.2: ICMP echo reply, id 3, seq 1, length 64
