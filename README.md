@@ -928,7 +928,7 @@ The `tcpdump` log on U-Plane1 is as follows.
 
 Confirm by using `tcpdump` that the packet goes through `if=ogstun` on U-Plane2.
 ```
-# ping google.com -I uesimtun0 -n
+# ping google.com -I uesimtun1 -n
 PING google.com (172.217.26.238) from 10.46.0.2 uesimtun1: 56(84) bytes of data.
 64 bytes from 172.217.26.238: icmp_seq=1 ttl=61 time=20.2 ms
 64 bytes from 172.217.26.238: icmp_seq=2 ttl=61 time=17.7 ms
