@@ -29,8 +29,8 @@ This describes a very simple configuration that uses Open5GS and UERANSIM to sel
   - [Changes in configuration files of Open5GS 5GC U-Plane2](#changes_up2)
   - [Changes in configuration files of UERANSIM UE / RAN](#changes_ueransim)
     - [Changes in configuration files of RAN (gNodeB)](#changes_ran)
-    - [Changes in configuration files of UE set to SST:1 and SD:0x000001 (IMSI-001010000000000)](#changes_ue_sd1)
-    - [Changes in configuration files of UE set to SST:1 and SD:0x000002 (IMSI-001010000000000)](#changes_ue_sd2)
+    - [Changes in configuration files of UE[SST:1, SD:0x000001] (IMSI-001010000000000)](#changes_ue_sd1)
+    - [Changes in configuration files of UE[SST:1, SD:0x000002] (IMSI-001010000000000)](#changes_ue_sd2)
 - [Network settings of Open5GS 5GC and UERANSIM UE / RAN](#network_settings)
   - [Network settings of Open5GS 5GC C-Plane](#network_settings_cp)
   - [Network settings of Open5GS 5GC U-Plane1](#network_settings_up1)
@@ -422,7 +422,7 @@ Please refer to the following for building Open5GS and UERANSIM respectively.
  ignoreStreamIds: true
 ```
 
-<h4 id="changes_ue_sd1">Changes in configuration files of UE set to SST:1 and SD:0x000001 (IMSI-001010000000000)</h4>
+<h4 id="changes_ue_sd1">Changes in configuration files of UE[SST:1, SD:0x000001] (IMSI-001010000000000)</h4>
 
 - `UERANSIM/config/open5gs-ue-sd1.yaml`
 ```diff
@@ -471,7 +471,7 @@ Please refer to the following for building Open5GS and UERANSIM respectively.
  integrity:
 ```
 
-<h4 id="changes_ue_sd2">Changes in configuration files of UE set to SST:1 and SD:0x000002 (IMSI-001010000000000)</h4>
+<h4 id="changes_ue_sd2">Changes in configuration files of UE[SST:1, SD:0x000002] (IMSI-001010000000000)</h4>
 
 - `UERANSIM/config/open5gs-ue-sd2.yaml`
 ```diff
