@@ -949,6 +949,6 @@ I was able to confirm the very simple configuration in which one UE connects to 
 
 <h2 id="changelog">Changelog (summary)</h2>
 
-- [2023.03.17] Updated to Open5GS v2.6.1 and latest UERANSIM that supports Routing Indicator settings. This allows one UE to use multiple S-NSSAIs at the same time.
+- [2023.03.17] Updated to Open5GS v2.6.1 (2023.03.17) and UERANSIM v3.2.6 (2023.03.17).
 - [2023.01.13] Updated to Open5GS v2.5.6.
 - [2022.08.01] Initial release.
