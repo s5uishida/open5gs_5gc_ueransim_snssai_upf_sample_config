@@ -83,9 +83,9 @@ gNodeB Information (other information is default) is as follows.
 
 Subscriber Information (other information is default) is as follows.  
 **Note. Please select OP or OPc according to the setting of UERANSIM UE configuration files.**
-| UE | IMSI | DNN | OP/OPc | S-NSSAI | Routing Indicator |
-| --- | --- | --- | --- | --- | --- |
-| UE | 001010000000000 | internet | OPc | SST:1, SD:0x000001 <br> SST:1, SD:0x000002| 0001 <br> 0002 |
+| UE | IMSI | DNN | OP/OPc | S-NSSAI |
+| --- | --- | --- | --- | --- |
+| UE | 001010000000000 | internet | OPc | SST:1, SD:0x000001 <br> SST:1, SD:0x000002|
 
 I registered these information with the Open5GS WebUI.
 In addition, [3GPP TS 35.208](https://www.3gpp.org/DynaReport/35208.htm) "4.3 Test Sets" is published by 3GPP as test data for the 3GPP authentication and key generation functions (MILENAGE).
