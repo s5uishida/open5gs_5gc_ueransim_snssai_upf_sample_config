@@ -96,7 +96,7 @@ Each DNs are as follows.
 | DN | S-NSSAI |  TUNnel interface of DN | DNN | TUNnel interface of UE | U-Plane # |
 | --- | --- | --- | --- | --- | --- |
 | 10.45.0.0/16 | SST:1 <br> SD:0x000001 | ogstun | internet | uesimtun0 | U-Plane1 |
-| 10.46.0.0/16 | SST:1 <br> SD:0x000002 | ogstun | internet | uesimtun1 | U-Plane2 |
+| 10.46.0.0/16 | SST:1 <br> SD:0x000002 | ogstun | internet | uesimtun0 | U-Plane2 |
 
 <h2 id="changes">Changes in configuration files of Open5GS 5GC and UERANSIM UE / RAN</h2>
 
