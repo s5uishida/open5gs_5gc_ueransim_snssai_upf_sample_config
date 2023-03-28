@@ -589,12 +589,13 @@ First, run Open5GS 5GC C-Plane.
 - Open5GS 5GC C-Plane
 ```
 ./install/bin/open5gs-nrfd &
-sleep 5
+sleep 2
 ./install/bin/open5gs-scpd &
-sleep 5
+sleep 2
+./install/bin/open5gs-amfd &
+sleep 2
 ./install/bin/open5gs-smfd -c install/etc/open5gs/smf1.yaml &
 ./install/bin/open5gs-smfd -c install/etc/open5gs/smf2.yaml &
-./install/bin/open5gs-amfd &
 ./install/bin/open5gs-ausfd &
 ./install/bin/open5gs-udmd &
 ./install/bin/open5gs-udrd &
