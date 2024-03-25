@@ -147,7 +147,7 @@ Please refer to the following for building Open5GS and UERANSIM respectively.
      ciphering_order : [ NEA0, NEA1, NEA2 ]
 ```
 - `open5gs/install/etc/open5gs/nrf.yaml`
-```
+```diff
 --- nrf.yaml.orig       2024-03-24 15:36:48.000000000 +0900
 +++ nrf.yaml    2024-03-25 19:46:56.184797762 +0900
 @@ -10,8 +10,8 @@
