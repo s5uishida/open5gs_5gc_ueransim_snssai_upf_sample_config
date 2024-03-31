@@ -997,6 +997,7 @@ I was able to confirm the very simple configuration in which one UE connects to 
 
 ## Changelog (summary)
 
+- [2024.03.31] Removed `gtpc` section in `smf.yaml`.
 - [2024.03.25] Updated to Open5GS v2.7.0 (2024.03.24).
 - [2023.03.18] Updated to Open5GS v2.6.1 (2023.03.18) and UERANSIM v3.2.6 (2023.03.17).
 - [2023.01.13] Updated to Open5GS v2.5.6.
