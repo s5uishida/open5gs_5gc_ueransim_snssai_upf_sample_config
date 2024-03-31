@@ -182,7 +182,7 @@ Please refer to the following for building Open5GS and UERANSIM respectively.
 - `open5gs/install/etc/open5gs/smf1.yaml`
 ```diff
 --- smf.yaml.orig       2024-03-24 15:36:48.000000000 +0900
-+++ smf1.yaml   2024-03-25 20:28:19.440826160 +0900
++++ smf1.yaml   2024-03-31 22:50:41.758088024 +0900
 @@ -1,5 +1,5 @@
  logger:
 -  file: /root/open5gs/install/var/log/open5gs/smf.log
@@ -190,7 +190,7 @@ Please refer to the following for building Open5GS and UERANSIM respectively.
  #  level: info   # fatal|error|warn|info(default)|debug|trace
  
  global:
-@@ -19,35 +19,45 @@
+@@ -19,35 +19,42 @@
          - uri: http://127.0.0.200:7777
    pfcp:
      server:
@@ -199,11 +199,11 @@ Please refer to the following for building Open5GS and UERANSIM respectively.
      client:
        upf:
 -        - address: 127.0.0.7
+-  gtpc:
+-    server:
+-      - address: 127.0.0.4
 +        - address: 192.168.0.114
 +          dnn: internet
-   gtpc:
-     server:
-       - address: 127.0.0.4
    gtpu:
      server:
 -      - address: 127.0.0.4
@@ -247,7 +247,7 @@ Please refer to the following for building Open5GS and UERANSIM respectively.
 - `open5gs/install/etc/open5gs/smf2.yaml`
 ```diff
 --- smf.yaml.orig       2024-03-24 15:36:48.000000000 +0900
-+++ smf2.yaml   2024-03-25 20:28:41.255051446 +0900
++++ smf2.yaml   2024-03-31 22:50:49.806176520 +0900
 @@ -1,5 +1,5 @@
  logger:
 -  file: /root/open5gs/install/var/log/open5gs/smf.log
@@ -264,7 +264,7 @@ Please refer to the following for building Open5GS and UERANSIM respectively.
          port: 7777
      client:
  #      nrf:
-@@ -19,35 +19,45 @@
+@@ -19,35 +19,42 @@
          - uri: http://127.0.0.200:7777
    pfcp:
      server:
@@ -273,12 +273,11 @@ Please refer to the following for building Open5GS and UERANSIM respectively.
      client:
        upf:
 -        - address: 127.0.0.7
+-  gtpc:
+-    server:
+-      - address: 127.0.0.4
 +        - address: 192.168.0.115
 +          dnn: internet
-   gtpc:
-     server:
--      - address: 127.0.0.4
-+      - address: 127.0.0.24
    gtpu:
      server:
 -      - address: 127.0.0.4
